@@ -16,3 +16,13 @@ y = dataset.iloc[:, -1].values
 # Training the Random Forest Regression Model on the whole dataset
 regressor = RandomForestRegressor(n_estimators=10, random_state=0)
 regressor.fit(X, y)
+
+# Predict a new results
+predict1 = regressor.predict([[6.5]])
+predict2 = regressor.predict([[2.5]])
+predict3 = regressor.predict([[9]])
+
+# print prediction values
+print(predict1)
+print(predict2)
+print(predict3)
