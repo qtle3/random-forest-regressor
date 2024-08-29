@@ -26,3 +26,10 @@ The script performs the following steps:
 - **Ensemble Learning:** Combines multiple models (in this case, decision trees) to improve the overall performance compared to individual models.
 - **Prediction:** Demonstrates how the Random Forest model can be used to predict the salary for different position levels by averaging the outputs of the trees.
 - **Model Training and Evaluation:** The script trains the Random Forest model on the full dataset and evaluates its performance by making predictions on new data points.
+
+## How to Run
+
+1. **Install required dependencies:**
+   ```bash
+   pip install numpy pandas matplotlib scikit-learn
+   python random_forest_regression.py
