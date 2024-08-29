@@ -19,3 +19,10 @@ The script performs the following steps:
 
 4. **Output:**
    - The predicted salaries for the given position levels are printed, allowing for a direct comparison between the model’s predictions and expected salary values.
+
+## Key Concepts Covered
+
+- **Random Forest Regression:** An ensemble learning method that constructs multiple decision trees during training and outputs the average of their predictions, leading to improved accuracy and robustness in prediction tasks.
+- **Ensemble Learning:** Combines multiple models (in this case, decision trees) to improve the overall performance compared to individual models.
+- **Prediction:** Demonstrates how the Random Forest model can be used to predict the salary for different position levels by averaging the outputs of the trees.
+- **Model Training and Evaluation:** The script trains the Random Forest model on the full dataset and evaluates its performance by making predictions on new data points.
